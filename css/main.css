@@ -54,6 +54,8 @@ nav ul {
 }
 
 nav p {
+  line-height:20px;
+  font-size:12px;
   color: whitesmoke;
 }
 
