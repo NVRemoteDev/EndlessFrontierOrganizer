@@ -43,10 +43,6 @@ main {
   padding:10px;
 }
 
-.innertube {
-  margin: 15px; /* Provides padding for the content */
-}
-
 p {
   color: #555;
 }
