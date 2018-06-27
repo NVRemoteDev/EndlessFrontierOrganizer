@@ -19,6 +19,15 @@ main {
   background: #fff;
 }
 
+#contentFrame {
+  height: 100%;
+  width: 100%;  
+}
+
+.innertube {
+  height: 100%;
+}
+
 #nav {
   position: absolute; 
   left: 0;
