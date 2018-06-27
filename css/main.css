@@ -10,13 +10,14 @@ body {
 
 main {
   position: fixed;
-  left: 230px; /* Width of the nav bar */
+  left: 200px; /* Width of the nav bar */
   bottom: 100px; /* Set this to the height of the footer */
   right: 0;
   top: 0;
   bottom: 0;
   overflow: auto; 
   background: #fff;
+  margin-left: -10px;
 }
 
 #contentFrame {
@@ -28,6 +29,7 @@ main {
 .innertube {
   height: 100%;
   overflow: hidden;
+  padding-left:10px;
 }
 
 #nav {
@@ -36,7 +38,7 @@ main {
   left: 0;
   top: 0;
   bottom: 100px; 
-  width: 230px;
+  width: 200px;
   overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
   background: #173F5F; 		
 }
@@ -51,8 +53,12 @@ nav ul {
   padding: 0;
 }
 
-nav a, p {
+nav p {
   color: whitesmoke;
+}
+
+nav a {
+  color: blanchedalmond; 
 }
 
 nav ul a {
