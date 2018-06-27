@@ -51,6 +51,10 @@ nav ul {
   padding: 0;
 }
 
+nav a, p {
+  color: whitesmoke;
+}
+
 nav ul a {
   color: blanchedalmond;
   text-decoration: none;
