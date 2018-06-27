@@ -32,6 +32,12 @@ main {
   padding-left:10px;
 }
 
+#ef-logo {
+  width: 195px;
+  margin-left: -10px; 
+  margin-bottom: -15px;
+}
+
 #nav {
   height: 100%;
   position: absolute; 
